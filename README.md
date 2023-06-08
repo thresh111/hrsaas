@@ -1,6 +1,6 @@
 # hrsaas
 
-This template should help get you started developing with Vue 3 in Vite.
+T 人力资源后端系统囊括了一个企业中正常的登录，首页，组织架构管理，角色管理，员工管理等常用功能。
 
 ## Recommended IDE Setup
 
@@ -33,4 +33,5 @@ yarn build
 ```sh
 yarn lint
 ```
-"# hrsaas" 
+
+"# hrsaas"
