@@ -21,5 +21,13 @@ export default defineConfig({
         javascriptEnabled: true
       }
     }
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://ihrm.itheima.net',
+        changeOrigin: true
+      }
+    }
   }
 })
